@@ -18,8 +18,8 @@ const TAB_DATA = [
     )
   },
   {
-    title: "education",
-    id: "education",
+    title: "certifications",
+    id: "certifications",
     content: (
       <ul className='list-disc pl-2'>
         <li>Bachelor in Computer Science</li>
@@ -28,8 +28,8 @@ const TAB_DATA = [
     )
   },
   {
-    title: "certifications",
-    id: "certifications",
+    title: "languages",
+    id: "languages",
     content: (
       <ul className='list-disc pl-2'>
         <li>Full Stack Web Development</li>
@@ -70,18 +70,18 @@ function AboutSection() {
               Skills{" "}
             </TabButton>
             <TabButton 
-              selectTab={() => handleTabChange('education')} 
-              active={tab === 'education'}
-            >
-              {" "}
-              Education{" "}
-            </TabButton>
-            <TabButton 
               selectTab={() => handleTabChange('certifications')} 
               active={tab === 'certifications'}
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton 
+              selectTab={() => handleTabChange('languages')} 
+              active={tab === 'languages'}
+            >
+              {" "}
+              Languages{" "}
             </TabButton>
           </div>
           <div className='mt-8'>
