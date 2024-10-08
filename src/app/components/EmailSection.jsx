@@ -39,19 +39,7 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form 
-            className="flex flex-col"
-            name="contact" 
-            method="POST"
-            data-netlify="true" 
-            data-netlify-honeypot="bot-field"
-            onSubmit={() => setEmailSubmitted(true)}
-          >
-            <input type="hidden" name="form-name" value="contact" />
-            <p className="hidden">
-              <label>Don&apos;t fill this out if you&apos;re human: <input name="bot-field" /></label>
-            </p>
-
+          <form className="flex flex-col" onSubmit={() => {}}>
             <div className="mb-6">
               <label
                 htmlFor="email"
@@ -105,7 +93,6 @@ const EmailSection = () => {
               Send Message
             </button>
           </form>
-
         )}
       </div>
     </section>
