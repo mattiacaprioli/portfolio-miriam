@@ -39,7 +39,12 @@ const EmailSection = () => {
             Email sent successfully!
           </p>
         ) : (
-          <form className="flex flex-col" onSubmit={() => {}}>
+          <form
+            className="flex flex-col"
+            action="https://formspree.io/f/xyzygojw"
+            method="POST"
+            onSubmit={() => setEmailSubmitted(true)}
+          >
             <div className="mb-6">
               <label
                 htmlFor="email"
@@ -53,7 +58,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder="example@gmail.com"
               />
             </div>
             <div className="mb-6">
