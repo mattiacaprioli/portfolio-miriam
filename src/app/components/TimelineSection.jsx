@@ -1,15 +1,17 @@
 import React from "react";
 
 const timelineData = [
-  { year: "2021", title: "High School", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum suscipit labore natus laborum nam vitae quod ratione voluptate esse?", align: "left" },
-  { year: "2022", title: "University", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae harum suscipit labore natus laborum nam vitae quod ratione voluptate esse?", align: "right" },
+  { year: "2024", title: "Digital Marketing Specialist", description: "Customer interaction company RimborsiAmo  | Freelance", align: "left" },
+  { year: "2024", title: "Copywriter | Blog", description: "Consulente Google Ads Luigi Virginio  | Freelance", align: "right" },
+  { year: "2024", title: "Copywriter | Script video", description: "Agenzia di Influencer Marketing Flatmates | Freelance", align: "left" },
+  { year: "2022-presente", title: "Copywriter | Blog", description: "Business-Investimenti Invest Hero | Freelance", align: "right" },
 ];
 
 const TimelineSection = () => {
   return (
     <section className="py-16">
       <div className="text-center">
-        <h2 className="text-4xl font-bold mb-12">Education</h2>
+        <h2 className="text-4xl font-bold mb-12">Esperienza</h2>
       </div>
       <div className="relative max-w-7xl mx-auto px-0 lg:px-8">
         {/* Linea centrale */}
