@@ -7,57 +7,51 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Consulente Google Ads Luigi Virginio",
+    description: "Blog ",
+    image: "/images/projects/image1.png",
+    tag: ["All", "Marketing"],
+    previewUrl: "https://luigivirginio.com/blog/",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Metodo Universitario",
+    description: "Analisi della presenza online, di mercato e competitor",
+    image: "/images/projects/image2.png",
+    tag: ["All", "Marketing"],
+    previewUrl: "https://www.canva.com/design/DAFz2CzbfGs/P88VVYtFeHpo9hW9pZEsTA/view?utm_content=DAFz2CzbfGs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   },
   {
     id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Facebook Ads",
+    description: "Campagne facebook ads e portfolio completo",
+    image: "/images/projects/image3.png",
+    tag: ["All", "Marketing"],
+    previewUrl: "https://www.canva.com/design/DAGA0MAPuw8/h4LN0MzV255v_FzJOUZv5w/view?utm_content=DAGA0MAPuw8&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   },
   {
     id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Funnel Marketing",
+    description: "Ideazione funnel di vendita e strategia di marketing",
+    image: "/images/projects/image4.png",
+    tag: ["All", "Marketing"],
+    previewUrl: "https://www.canva.com/design/DAFim4fl_5o/vugJ4fgL3ljf5eX4hknpKA/view?utm_content=DAFim4fl_5o&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   },
   {
     id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Google Ads",
+    description: "Progettazione e sviluppo di campagne google ads",
+    image: "/images/projects/image5.png",
+    tag: ["All", "Marketing"],
+    previewUrl: "https://www.canva.com/design/DAFrZ1KjwBc/f_B5KpBOR9XbU4H8UUG4Dg/view?utm_content=DAFrZ1KjwBc&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   },
   {
     id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "Italy Food Awards",
+    description: "Analisi e proposta di sviluppo della presenza online",
+    image: "/images/projects/image6.png",
+    tag: ["All", "Marketing"],
+    previewUrl: "https://www.canva.com/design/DAF1Kjye5aM/367ZxvIx_witaa9Hr913Ag/view?utm_content=DAF1Kjye5aM&utm_campaign=designshare&utm_medium=link&utm_source=editor",
   },
 ];
 
@@ -90,7 +84,7 @@ const ProjectsSection = () => {
           name="All"
           isSelected={tag === "All"}
         />
-        <ProjectTag
+        {/* <ProjectTag
           onClick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
@@ -99,7 +93,7 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Mobile"
           isSelected={tag === "Mobile"}
-        />
+        /> */}
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (

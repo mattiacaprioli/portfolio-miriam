@@ -31,13 +31,13 @@ const TimelineSection = () => {
                     <p className="text-gray-400">{item.description}</p>
                   </div>
                 </div>
-                <div className="z-20 flex items-center order-1 bg-primary-400 shadow-sm w-5 h-5 rounded-full"></div>
+                <div className="z-20 flex items-center order-1 bg-gradient-to-r from-primary-400 to-secondary-600 shadow-sm w-5 h-5 rounded-full"></div>
                 <div className="order-1 w-5/12"></div>
               </>
             ) : (
               <>
                 <div className="order-1 w-5/12"></div>
-                <div className="z-20 flex items-center order-1 bg-primary-400 shadow-sm w-5 h-5 rounded-full"></div>
+                <div className="z-20 flex items-center order-1 bg-gradient-to-r from-primary-400 to-secondary-600 shadow-sm w-5 h-5 rounded-full"></div>
                 <div className="order-1 w-5/12">
                   <div className="text-left mb-4">
                     <span className="text-primary-400 font-bold text-lg">{item.year}</span>
