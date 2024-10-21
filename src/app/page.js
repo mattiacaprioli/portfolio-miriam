@@ -4,7 +4,6 @@ import AboutSection from "./components/AboutSection";
 import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "./components/EmailSection";
 import Footer from "./components/Footer";
-import AchievementsSection from "./components/ArchievementsSection";
 import TimelineSection from "./components/TimelineSection";
 
 export default function Home() {
@@ -13,7 +12,6 @@ export default function Home() {
       <Navbar />
       <div className="container mt-24 mx-auto px-3 py-4">
         <HeroSection />
-        {/* <AchievementsSection /> mantieni per ruggero */}
         <AboutSection />
         <TimelineSection />
         <ProjectsSection />
