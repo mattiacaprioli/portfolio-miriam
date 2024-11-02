@@ -17,12 +17,12 @@ const HeroSection = () => {
             <TypeAnimation
               sequence={[
                 "Digital Marketing Specialist",
-                1000,
+                2000,
                 "Copywriter",
-                1000,
+                2000,
               ]}
               wrapper="span"
-              speed={500}
+              speed={175}
               repeat={Infinity}
             />
           </h1>
