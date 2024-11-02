@@ -1,19 +1,19 @@
 import React from "react";
-
-const timelineData = [
-  { year: "2024", title: "Digital Marketing Specialist", description: "Customer interaction company RimborsiAmo  | Freelance", align: "left" },
-  { year: "2024", title: "Copywriter | Blog", description: "Consulente Google Ads Luigi Virginio  | Freelance", align: "right" },
-  { year: "2024", title: "Copywriter | Script video", description: "Agenzia di Influencer Marketing Flatmates | Freelance", align: "left" },
-  { year: "2022-presente", title: "Copywriter | Blog", description: "Business-Investimenti Invest Hero | Freelance", align: "right" },
-];
+import { timelineData } from "../data";
+import TimelineSectionMoblie from "./TimelineSectionMoblie";
 
 const TimelineSection = () => {
   return (
-    <section className="py-16">
+    <section id="experience" className="py-16">
       <div className="text-center">
         <h2 className="text-4xl font-bold mb-12">Esperienza</h2>
       </div>
-      <div className="relative max-w-7xl mx-auto px-0 lg:px-8">
+
+      <div className="lg:hidden">
+        <TimelineSectionMoblie />
+      </div>
+
+      <div className="hidden lg:block relative max-w-7xl mx-auto px-0 lg:px-8">
         {/* Linea centrale */}
         <div className="border-l-4 border-primary-500 absolute h-full left-1/2 transform -translate-x-1/2"></div>
 
