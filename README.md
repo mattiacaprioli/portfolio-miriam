@@ -2,6 +2,10 @@
 
 This is a Next.js project developed as a portfolio for a digital marketer. The project was created with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and optimized to professionally showcase the client’s skills and projects.
 
+## Link
+
+[Miriam Portfolio](https://miriamportfolio.netlify.app/)
+
 ## Screenshot
 
 ![Banner](https://github.com/mattiacaprioli/portfolio-miriam/blob/main/public/images/miriamPortfolio.png)
