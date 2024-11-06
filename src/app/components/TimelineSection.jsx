@@ -6,7 +6,7 @@ const TimelineSection = () => {
   return (
     <section id="experience" className="py-16">
       <div className="text-center">
-        <h2 className="text-4xl font-bold mb-12">Esperienza</h2>
+        <h2 className="text-center text-white text-4xl font-bold mb-12">Esperienza</h2>
       </div>
 
       <div className="lg:hidden">
