@@ -4,7 +4,7 @@ This is a Next.js project developed as a portfolio for a digital marketer. The p
 
 ## Screenshot
 
-![Banner](https://github.com/mattiacaprioli/portfolio-miriam/tree/main/public/images/miriamPortfolio.png)
+![Banner](https://github.com/mattiacaprioli/portfolio-miriam/blob/main/public/images/miriamPortfolio.png)
 
 ## Getting Started
 
